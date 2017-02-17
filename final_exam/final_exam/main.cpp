@@ -31,13 +31,14 @@ int main(int argc, char* argv[]) {
   std::vector<int> my_vector;
 
   my_vector.push_back(2);
-  my_vector.push_back(1);
+  my_vector.push_back(7);
   my_vector.push_back(6);
-  my_vector.push_back(1);
-  my_vector.push_back(4);
+  my_vector.push_back(7);
+  my_vector.push_back(3);
   my_vector.push_back(6);
   my_vector.push_back(2);
-  my_vector.push_back(1);
+  my_vector.push_back(7);
+  my_vector.push_back(7);
   my_vector.push_back(1);
 
   vector<int> demo = unique_elements(my_vector);
